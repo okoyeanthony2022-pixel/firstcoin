@@ -9,6 +9,10 @@ requirements = []
 path = 'contracts/firstcoin.clar'
 clarity_version = 3
 epoch = 'latest'
+[contracts.firstbit]
+path = 'contracts/firstbit.clar'
+clarity_version = 3
+epoch = 'latest'
 [repl.analysis]
 passes = ['check_checker']
 
